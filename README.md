@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Yunus Emre Altanay - yunus.altanay@iceberg-digital.co.uk
+Yunus Emre Altanay - y.emrealtanay@gmail.com
 
 Project Link: [https://github.com/yemrealtanay/tags/](https://github.com/yemrealtanay/tags/)
 
