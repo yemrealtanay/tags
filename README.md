@@ -127,6 +127,8 @@ This is an example of how to list things you need to use the software and how to
     User::attachTags(['tag1', 'tag2', 'tag3']);
 
     User::detachTags(['tag1', 'tag2']);
+    
+    User::with('tags')->query();
 ```
 
 <!-- LICENSE -->
