@@ -1,0 +1,29 @@
+{
+    "name": "yemrealtanay/tags",
+    "description": "You can add and use tags for your models for any time! This package is a simplified version of the spatie laravel tags package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yemrealtanay\\Tags\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yunus Emre Altanay",
+            "email": "yunus.altanay@iceberg-digital.co.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yemrealtanay\\Tags\\TagsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.67|^9.0"
+    }
+}
