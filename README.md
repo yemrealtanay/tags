@@ -103,11 +103,11 @@ This is an example of how to list things you need to use the software and how to
 
 2. vendor publish for migrations
 ```sh
-    php artisan vendor:publish --provider="YemreAltanay\Tags\TagsServiceProvider"
+    php artisan vendor:publish --provider="Yemrealtanay\Tags\TagsServiceProvider" --tag="migrations"
 ```
 3. vendor publish for config file
 ```sh
-    php artisan vendor:publish --provider="Yemrealtanay\Tags\TagsServiceProvider"
+    php artisan vendor:publish --provider="Yemrealtanay\Tags\TagsServiceProvider" --tag="config"
 ```
 4. migrate
 ```sh
